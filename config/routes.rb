@@ -1,5 +1,5 @@
 Demo::Application.routes.draw do
-  root "mynotes#auth"
+
   get "mynotes/auth"
   get "mynotes/notes"
   post "mynotes/auth", to: 'mynotes#notes'
